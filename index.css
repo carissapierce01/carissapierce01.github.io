@@ -193,7 +193,7 @@ nav {
   
   /* Content */
   .content {
-    background-color: grey;
+    background-color: white;
     padding: 10px;
   }
   
@@ -214,10 +214,11 @@ nav {
   /*code for skills image row*/
   /* Three image containers (use 25% for four, and 50% for two, etc) */
   
-  .roww {
-    float: left;
-    width: 15%;
+  .icon-row img {
+    width: 63px;
+    height: 58px;
     padding: 5px;
+    float: left;
   }
   
   /* Clear floats after image containers */
@@ -226,6 +227,8 @@ nav {
     clear: both;
     display: table;
   }
+
+
   
   
   /*----------------------------------------*/
@@ -282,4 +285,16 @@ nav {
       width: 100%;
       margin-top: 0;
     }
+  }
+
+  form{
+    float: left;
+    width: 50%
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  1float{
+    height: 50px;
+    width: 50px;
   }
